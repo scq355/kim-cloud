@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="provider-gateway" />
+        <module name="provider-payment" />
+        <module name="provider-consumer-order-fegin" />
+        <module name="provider-payment-ali" />
+        <module name="mybatis-generator" />
+        <module name="provider-config-nacos-ali" />
+        <module name="provider-sentinel-ali" />
+        <module name="provider-account" />
+        <module name="provider-consumer-order" />
+        <module name="provider-api-commons" />
+        <module name="provider-gateway-sentinel" />
+        <module name="provider-order" />
+        <module name="provider-jwt" />
+        <module name="provider-consumer-order-ali" />
+        <module name="provider-storage" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
