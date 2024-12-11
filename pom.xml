@@ -24,6 +24,7 @@
         <module>provider-account</module>
         <module>provider-jwt</module>
         <module>provider-jwt-security</module>
+        <module>provider-i18n</module>
     </modules>
 
     <properties>
