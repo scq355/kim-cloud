@@ -27,6 +27,7 @@
         <module>provider-i18n</module>
         <module>provider-sa-token</module>
         <module>provider-mail</module>
+        <module>provider-crypto</module>
     </modules>
 
     <properties>
