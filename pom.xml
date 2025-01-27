@@ -25,6 +25,7 @@
         <module>provider-jwt</module>
         <module>provider-jwt-security</module>
         <module>provider-i18n</module>
+        <module>provider-sa-token</module>
     </modules>
 
     <properties>
