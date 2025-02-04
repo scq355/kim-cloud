@@ -37,12 +37,56 @@
 
 
         <!--seata_storage-->
-        <table tableName="t_storage" domainObjectName="Storage">
+<!--        <table tableName="t_storage" domainObjectName="Storage">-->
+<!--            <generatedKey column="id" sqlStatement="JDBC"/>-->
+<!--        </table>-->
+
+<!--        &lt;!&ndash;seata_account&ndash;&gt;-->
+<!--        <table tableName="t_account" domainObjectName="Account">-->
+<!--            <generatedKey column="id" sqlStatement="JDBC"/>-->
+<!--        </table>-->
+        <table tableName="t_spu" domainObjectName="Spu">
             <generatedKey column="id" sqlStatement="JDBC"/>
         </table>
 
         <!--seata_account-->
-        <table tableName="t_account" domainObjectName="Account">
+        <table tableName="t_sku" domainObjectName="Sku">
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
+
+        <table tableName="t_sku_category" domainObjectName="SpuCategory">
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
+
+        <!--seata_account-->
+        <table tableName="t_sku_category" domainObjectName="SkuCategory">
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
+
+        <table tableName="t_user" domainObjectName="User">
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
+
+        <!--seata_account-->
+        <table tableName="t_stock" domainObjectName="Stock">
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
+
+        <table tableName="t_order" domainObjectName="Order">
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
+
+        <!--seata_account-->
+        <table tableName="t_payment" domainObjectName="Payment">
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
+
+        <table tableName="t_product_comment" domainObjectName="ProductComment">
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
+
+        <!--seata_account-->
+        <table tableName="t_product_description" domainObjectName="ProductDescription">
             <generatedKey column="id" sqlStatement="JDBC"/>
         </table>
     </context>
